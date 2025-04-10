@@ -1,0 +1,21 @@
+name: nomna_locale
+description: A localization package supports for Nomna Project.
+version: 0.0.1
+repository: https://github.com/zitherharpnomna/locale
+
+environment:
+  sdk: "^3.6.0"
+  flutter: "^3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: any
+
+flutter:
+  generate: true
+  uses-material-design: true
