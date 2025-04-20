@@ -94,6 +94,7 @@ abstract class NomnaLocalizations {
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
     Locale('vi'),
+    Locale('vi', 'Nom'),
     Locale('zh'),
     Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hans'),
     Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant')
@@ -648,7 +649,7 @@ abstract class NomnaLocalizations {
   /// No description provided for @l81.
   ///
   /// In vi, this message translates to:
-  /// **'Chúng tôi sẽ sử dụng ý kiến phản hồi của bạn để giúp cải thiện sản phẩm.'**
+  /// **'Mở trong Nomna Phiên dịch'**
   String get l81;
 
   /// No description provided for @l82.
@@ -771,6 +772,16 @@ NomnaLocalizations lookupNomnaLocalizations(Locale locale) {
   switch (locale.scriptCode) {
     case 'Hans': return NomnaLocalizationsZhHans();
 case 'Hant': return NomnaLocalizationsZhHant();
+   }
+  break;
+   }
+  }
+
+  // Lookup logic when language+country codes are specified.
+  switch (locale.languageCode) {
+    case 'vi': {
+  switch (locale.countryCode) {
+    case 'Nom': return NomnaLocalizationsViNom();
    }
   break;
    }

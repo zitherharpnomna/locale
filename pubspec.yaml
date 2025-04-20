@@ -1,6 +1,6 @@
 name: nomna_locale
 description: A localization package supports for Nomna Project.
-version: 0.0.1
+version: 0.1.0
 repository: https://github.com/zitherharpnomna/locale
 
 environment:

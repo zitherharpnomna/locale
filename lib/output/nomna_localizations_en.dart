@@ -419,7 +419,7 @@ class NomnaLocalizationsEn extends NomnaLocalizations {
   String get l80 => 'Suggest a translation';
 
   @override
-  String get l81 => 'We\'ll use your feedback to help improve our products.';
+  String get l81 => 'Open in Nomna Translate';
 
   @override
   String get l82 => 'We\'ll use your contributions to improve translation quality and may show them to other users (without identifying you).';

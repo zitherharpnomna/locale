@@ -419,7 +419,7 @@ class NomnaLocalizationsZh extends NomnaLocalizations {
   String get l80 => '建议的翻译';
 
   @override
-  String get l81 => '我们将利用您的反馈来帮助改进产品。';
+  String get l81 => '在喃那翻译中打开';
 
   @override
   String get l82 => '我们将使用您贡献的内容来提高翻译质量，并可能使这些内容对其他用户可见（不会识别您的身份）。';
@@ -885,7 +885,7 @@ class NomnaLocalizationsZhHans extends NomnaLocalizationsZh {
   String get l80 => '建议的翻译';
 
   @override
-  String get l81 => '我们将利用您的反馈来帮助改进产品。';
+  String get l81 => '在喃那翻译中打开';
 
   @override
   String get l82 => '我们将使用您贡献的内容来提高翻译质量，并可能使这些内容对其他用户可见（不会识别您的身份）。';
@@ -1351,7 +1351,7 @@ class NomnaLocalizationsZhHant extends NomnaLocalizationsZh {
   String get l80 => '建議的翻譯';
 
   @override
-  String get l81 => '我們將利用您的回饋來幫助改進產品。';
+  String get l81 => '在喃那翻譯中打开';
 
   @override
   String get l82 => '我們將使用您貢獻的內容來提高翻譯質量，並可能使這些內容對其他用戶可見（不會識別您的身份）。';
