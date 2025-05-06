@@ -1,8 +1,8 @@
 use-escaping: true
 synthetic-package: false
 template-arb-file: nomna_vi.arb
-arb-dir: lib\input
-output-dir: lib\output
+arb-dir: assets
+output-dir: lib\src
 output-class: NomnaLocalizations
 output-localization-file: nomna_localizations.dart
 untranslated-messages-file: .dart_tool\untranslated_localizations.json

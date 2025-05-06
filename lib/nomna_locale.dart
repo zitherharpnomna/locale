@@ -2,20 +2,22 @@ library;
 
 import 'package:flutter/widgets.dart';
 
-import 'output/nomna_localizations.dart';
+import 'src/nomna_localizations.dart';
 
-export 'output/nomna_localizations.dart' show NomnaLocalizations;
+export 'src/nomna_localizations.dart' show NomnaLocalizations;
 
 extension NomnaLocale on BuildContext {
+  static const String _defaultTag = 'vi';
+
   /// Vietnamese.
   static const Locale vi = Locale.fromSubtags(
-    languageCode: 'vi',
+    languageCode: _defaultTag,
   );
 
   /// Vietnamese (Sino-Nom).
   static const Locale viNom = Locale.fromSubtags(
     scriptCode: 'Nom',
-    languageCode: 'vi',
+    languageCode: _defaultTag,
   );
 
   /// Default [NomnaLocalizations] instance.
@@ -29,17 +31,19 @@ extension NomnaLocale on BuildContext {
 
   /// Converts a BCP-47 language [tag] to a [Locale].
   static Locale fromTag(String tag, [String separator = '-']) {
-    final subtags = tag.split(separator);
+    final List<String> subtags = tag.split(separator);
+
     if (subtags.length < 3) {
       return Locale(
         subtags.elementAt(0),
         subtags.elementAtOrNull(1),
       );
     }
+
     return Locale.fromSubtags(
       languageCode: subtags.elementAt(0),
-      scriptCode: subtags.elementAt(1),
-      countryCode: subtags.elementAt(2),
+      countryCode: subtags.elementAt(1),
+      scriptCode: subtags.elementAt(2),
     );
   }
 }

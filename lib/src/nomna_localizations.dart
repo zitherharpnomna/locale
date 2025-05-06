@@ -19,7 +19,7 @@ import 'nomna_localizations_zh.dart';
 /// `supportedLocales` list. For example:
 ///
 /// ```dart
-/// import 'output/nomna_localizations.dart';
+/// import 'src/nomna_localizations.dart';
 ///
 /// return MaterialApp(
 ///   localizationsDelegates: NomnaLocalizations.localizationsDelegates,
