@@ -117,7 +117,7 @@ class NomnaLocalizationsZh extends NomnaLocalizations {
   String get l18 => '取消';
 
   @override
-  String get l19 => '选图';
+  String get l19 => '模型';
 
   @override
   String get l20 => '你确定清除所有历史记录？';
@@ -234,7 +234,7 @@ class NomnaLocalizationsZh extends NomnaLocalizations {
         'zh_Hans': '中文 (简体)',
         'zh_Hant': '中文 (繁体)',
         'vi': '越南语',
-        'vi_HN': '越南语 (汉喃)',
+        'vi_Nom': '越南语 (汉喃)',
         'other': '',
       },
     );
@@ -419,7 +419,16 @@ class NomnaLocalizationsZh extends NomnaLocalizations {
   String get l80 => '建议的翻译';
 
   @override
-  String get l81 => '在喃那翻译中打开';
+  String l81(String object) {
+    String _temp0 = intl.Intl.selectLogic(
+      object,
+      {
+        'translate': '翻译',
+        'other': '',
+      },
+    );
+    return '在喃那$_temp0中打开';
+  }
 
   @override
   String get l82 => '我们将使用您贡献的内容来提高翻译质量，并可能使这些内容对其他用户可见（不会识别您的身份）。';
@@ -468,6 +477,20 @@ class NomnaLocalizationsZh extends NomnaLocalizations {
 
   @override
   String get l97 => '翻译已从保存列表中删除';
+
+  @override
+  String l98(String model) {
+    String _temp0 = intl.Intl.selectLogic(
+      model,
+      {
+        'ua': '每日转换帮助',
+        'ub': '使用高级集合',
+        'uc': '适合深入研究',
+        'other': '',
+      },
+    );
+    return '$_temp0';
+  }
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hans`).
@@ -583,7 +606,7 @@ class NomnaLocalizationsZhHans extends NomnaLocalizationsZh {
   String get l18 => '取消';
 
   @override
-  String get l19 => '选图';
+  String get l19 => '模型';
 
   @override
   String get l20 => '你确定清除所有历史记录？';
@@ -700,7 +723,7 @@ class NomnaLocalizationsZhHans extends NomnaLocalizationsZh {
         'zh_Hans': '中文 (简体)',
         'zh_Hant': '中文 (繁体)',
         'vi': '越南语',
-        'vi_HN': '越南语 (汉喃)',
+        'vi_Nom': '越南语 (汉喃)',
         'other': '',
       },
     );
@@ -885,7 +908,16 @@ class NomnaLocalizationsZhHans extends NomnaLocalizationsZh {
   String get l80 => '建议的翻译';
 
   @override
-  String get l81 => '在喃那翻译中打开';
+  String l81(String object) {
+    String _temp0 = intl.Intl.selectLogic(
+      object,
+      {
+        'translate': '翻译',
+        'other': '',
+      },
+    );
+    return '在喃那$_temp0中打开';
+  }
 
   @override
   String get l82 => '我们将使用您贡献的内容来提高翻译质量，并可能使这些内容对其他用户可见（不会识别您的身份）。';
@@ -934,6 +966,20 @@ class NomnaLocalizationsZhHans extends NomnaLocalizationsZh {
 
   @override
   String get l97 => '翻译已从保存列表中删除';
+
+  @override
+  String l98(String model) {
+    String _temp0 = intl.Intl.selectLogic(
+      model,
+      {
+        'ua': '每日转换帮助',
+        'ub': '使用高级集合',
+        'uc': '适合深入研究',
+        'other': '',
+      },
+    );
+    return '$_temp0';
+  }
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -1049,7 +1095,7 @@ class NomnaLocalizationsZhHant extends NomnaLocalizationsZh {
   String get l18 => '取消';
 
   @override
-  String get l19 => '選圖';
+  String get l19 => '模型';
 
   @override
   String get l20 => '你確定要清除所有歷史記錄？';
@@ -1166,7 +1212,7 @@ class NomnaLocalizationsZhHant extends NomnaLocalizationsZh {
         'zh_Hans': '中文 (簡體)',
         'zh_Hant': '中文 (繁體)',
         'vi': '越南文',
-        'vi_HN': '越南文 (漢喃)',
+        'vi_Nom': '越南文 (漢喃)',
         'other': '',
       },
     );
@@ -1351,7 +1397,16 @@ class NomnaLocalizationsZhHant extends NomnaLocalizationsZh {
   String get l80 => '建議的翻譯';
 
   @override
-  String get l81 => '在喃那翻譯中打开';
+  String l81(String object) {
+    String _temp0 = intl.Intl.selectLogic(
+      object,
+      {
+        'translate': '翻譯',
+        'other': '',
+      },
+    );
+    return '在喃那$_temp0中打开';
+  }
 
   @override
   String get l82 => '我們將使用您貢獻的內容來提高翻譯質量，並可能使這些內容對其他用戶可見（不會識別您的身份）。';
@@ -1400,4 +1455,18 @@ class NomnaLocalizationsZhHant extends NomnaLocalizationsZh {
 
   @override
   String get l97 => '翻譯已從儲存清單中刪除';
+
+  @override
+  String l98(String model) {
+    String _temp0 = intl.Intl.selectLogic(
+      model,
+      {
+        'ua': '每日轉換幫助',
+        'ub': '使用高級集合',
+        'uc': '適合深入研究',
+        'other': '',
+      },
+    );
+    return '$_temp0';
+  }
 }

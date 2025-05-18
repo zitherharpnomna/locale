@@ -117,7 +117,7 @@ class NomnaLocalizationsEn extends NomnaLocalizations {
   String get l18 => 'Back';
 
   @override
-  String get l19 => 'Select image from...';
+  String get l19 => 'Model';
 
   @override
   String get l20 => 'Are you sure to clear all histories?';
@@ -234,7 +234,7 @@ class NomnaLocalizationsEn extends NomnaLocalizations {
         'zh_Hans': 'Chinese (Simplified)',
         'zh_Hant': 'Chinese (Traditional)',
         'vi': 'Vietnamese',
-        'vi_HN': 'Vietnamese (Sino-Nom)',
+        'vi_Nom': 'Vietnamese (Sino-Nom)',
         'other': '',
       },
     );
@@ -419,7 +419,16 @@ class NomnaLocalizationsEn extends NomnaLocalizations {
   String get l80 => 'Suggest a translation';
 
   @override
-  String get l81 => 'Open in Nomna Translate';
+  String l81(String object) {
+    String _temp0 = intl.Intl.selectLogic(
+      object,
+      {
+        'translate': 'Translate',
+        'other': '',
+      },
+    );
+    return 'Open in Nomna $_temp0';
+  }
 
   @override
   String get l82 => 'We\'ll use your contributions to improve translation quality and may show them to other users (without identifying you).';
@@ -468,4 +477,18 @@ class NomnaLocalizationsEn extends NomnaLocalizations {
 
   @override
   String get l97 => 'Translation removed from saved list';
+
+  @override
+  String l98(String model) {
+    String _temp0 = intl.Intl.selectLogic(
+      model,
+      {
+        'ua': 'Daily conversion help',
+        'ub': 'Use advanced collection',
+        'uc': 'Ideal for in-depth research',
+        'other': '',
+      },
+    );
+    return '$_temp0';
+  }
 }

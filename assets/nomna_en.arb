@@ -29,7 +29,7 @@
     "l16": "Clear all",
     "l17": "Confirm",
     "l18": "Back",
-    "l19": "Select image from...",
+    "l19": "Model",
     "l20": "Are you sure to clear all histories?",
     "l21": "Quick translate",
     "l22": "App version: {version}",
@@ -57,7 +57,7 @@
     "l44": "Speech voice",
     "l45": "Are you sure to clear all saves?",
     "l46": "Processing...",
-    "l47": "{language, select, en{English} zh{Chinese} zh_Hans{Chinese (Simplified)} zh_Hant{Chinese (Traditional)} vi{Vietnamese} vi_HN{Vietnamese (Sino-Nom)} other{}}",
+    "l47": "{language, select, en{English} zh{Chinese} zh_Hans{Chinese (Simplified)} zh_Hant{Chinese (Traditional)} vi{Vietnamese} vi_Nom{Vietnamese (Sino-Nom)} other{}}",
     "l48": "An error occurred",
     "l49": "Retry",
     "l50": "Translate from",
@@ -91,7 +91,7 @@
     "l78": "Cut",
     "l79": "Copy",
     "l80": "Suggest a translation",
-    "l81": "Open in Nomna Translate",
+    "l81": "Open in Nomna {object, select, translate{Translate} other{}}",
     "l82": "We''ll use your contributions to improve translation quality and may show them to other users (without identifying you).",
     "l83": "Share the Nomna Contribute app with your friends so they can start contributing too.",
     "l84": "Share with friends",
@@ -107,5 +107,6 @@
     "l94": "Describe your feedback",
     "l95": "Full screen",
     "l96": "Translation added to saved list",
-    "l97": "Translation removed from saved list"
+    "l97": "Translation removed from saved list",
+    "l98": "{model, select, ua{Daily conversion help} ub{Use advanced collection} uc{Ideal for in-depth research} other{}}"
 }

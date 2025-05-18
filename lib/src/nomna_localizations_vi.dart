@@ -117,7 +117,7 @@ class NomnaLocalizationsVi extends NomnaLocalizations {
   String get l18 => 'Quay lại';
 
   @override
-  String get l19 => 'Chọn ảnh từ...';
+  String get l19 => 'Mô hình';
 
   @override
   String get l20 => 'Xác nhận xóa tất cả phiên lịch sử?';
@@ -234,7 +234,7 @@ class NomnaLocalizationsVi extends NomnaLocalizations {
         'zh_Hans': 'Tiếng Trung (Giản thể)',
         'zh_Hant': 'Tiếng Trung (Phồn thể)',
         'vi': 'Tiếng Việt',
-        'vi_HN': 'Tiếng Việt (Hán Nôm)',
+        'vi_Nom': 'Tiếng Việt (Hán Nôm)',
         'other': '',
       },
     );
@@ -419,7 +419,16 @@ class NomnaLocalizationsVi extends NomnaLocalizations {
   String get l80 => 'Đề xuất bản dịch';
 
   @override
-  String get l81 => 'Mở trong Nomna Phiên dịch';
+  String l81(String object) {
+    String _temp0 = intl.Intl.selectLogic(
+      object,
+      {
+        'translate': 'Phiên dịch',
+        'other': '',
+      },
+    );
+    return 'Mở trong Nomna $_temp0';
+  }
 
   @override
   String get l82 => 'Chúng tôi sẽ sử dụng nội dung bạn đóng góp để cải thiện chất lượng bản dịch và có thể cho người dùng khác xem các nội dung này (mà không xác định danh tính của bạn).';
@@ -468,6 +477,20 @@ class NomnaLocalizationsVi extends NomnaLocalizations {
 
   @override
   String get l97 => 'Đã xóa bản dịch khỏi danh sách đã lưu';
+
+  @override
+  String l98(String model) {
+    String _temp0 = intl.Intl.selectLogic(
+      model,
+      {
+        'ua': 'Trợ giúp chuyển đổi hàng ngày',
+        'ub': 'Sử dụng quá trình thu thập nâng cao',
+        'uc': 'Lý tưởng cho các nghiên cứu chuyên sâu',
+        'other': '',
+      },
+    );
+    return '$_temp0';
+  }
 }
 
 /// The translations for Vietnamese (`vi_Nom`).
@@ -583,7 +606,7 @@ class NomnaLocalizationsViNom extends NomnaLocalizationsVi {
   String get l18 => 'Quay lại';
 
   @override
-  String get l19 => 'Chọn ảnh từ...';
+  String get l19 => 'Mô hình';
 
   @override
   String get l20 => 'Xác nhận xóa tất cả phiên lịch sử?';
@@ -700,7 +723,7 @@ class NomnaLocalizationsViNom extends NomnaLocalizationsVi {
         'zh_Hans': 'Tiếng Trung (Giản thể)',
         'zh_Hant': 'Tiếng Trung (Phồn thể)',
         'vi': 'Tiếng Việt',
-        'vi_HN': 'Tiếng Việt (Hán Nôm)',
+        'vi_Nom': 'Tiếng Việt (Hán Nôm)',
         'other': '',
       },
     );
@@ -885,7 +908,16 @@ class NomnaLocalizationsViNom extends NomnaLocalizationsVi {
   String get l80 => 'Đề xuất bản dịch';
 
   @override
-  String get l81 => 'Mở trong Nomna Phiên dịch';
+  String l81(String object) {
+    String _temp0 = intl.Intl.selectLogic(
+      object,
+      {
+        'translate': 'Phiên dịch',
+        'other': '',
+      },
+    );
+    return 'Mở trong Nomna $_temp0';
+  }
 
   @override
   String get l82 => 'Chúng tôi sẽ sử dụng nội dung bạn đóng góp để cải thiện chất lượng bản dịch và có thể cho người dùng khác xem các nội dung này (mà không xác định danh tính của bạn).';
@@ -934,4 +966,18 @@ class NomnaLocalizationsViNom extends NomnaLocalizationsVi {
 
   @override
   String get l97 => 'Đã xóa bản dịch khỏi danh sách đã lưu';
+
+  @override
+  String l98(String model) {
+    String _temp0 = intl.Intl.selectLogic(
+      model,
+      {
+        'ua': 'Trợ giúp chuyển đổi hàng ngày',
+        'ub': 'Sử dụng quá trình thu thập nâng cao',
+        'uc': 'Lý tưởng cho các nghiên cứu chuyên sâu',
+        'other': '',
+      },
+    );
+    return '$_temp0';
+  }
 }

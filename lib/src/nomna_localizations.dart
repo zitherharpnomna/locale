@@ -277,7 +277,7 @@ abstract class NomnaLocalizations {
   /// No description provided for @l19.
   ///
   /// In vi, this message translates to:
-  /// **'Chọn ảnh từ...'**
+  /// **'Mô hình'**
   String get l19;
 
   /// No description provided for @l20.
@@ -445,7 +445,7 @@ abstract class NomnaLocalizations {
   /// No description provided for @l47.
   ///
   /// In vi, this message translates to:
-  /// **'{language, select, en{Tiếng Anh} zh{Tiếng Trung} zh_Hans{Tiếng Trung (Giản thể)} zh_Hant{Tiếng Trung (Phồn thể)} vi{Tiếng Việt} vi_HN{Tiếng Việt (Hán Nôm)} other{}}'**
+  /// **'{language, select, en{Tiếng Anh} zh{Tiếng Trung} zh_Hans{Tiếng Trung (Giản thể)} zh_Hant{Tiếng Trung (Phồn thể)} vi{Tiếng Việt} vi_Nom{Tiếng Việt (Hán Nôm)} other{}}'**
   String l47(String language);
 
   /// No description provided for @l48.
@@ -649,8 +649,8 @@ abstract class NomnaLocalizations {
   /// No description provided for @l81.
   ///
   /// In vi, this message translates to:
-  /// **'Mở trong Nomna Phiên dịch'**
-  String get l81;
+  /// **'Mở trong Nomna {object, select, translate{Phiên dịch} other{}}'**
+  String l81(String object);
 
   /// No description provided for @l82.
   ///
@@ -747,6 +747,12 @@ abstract class NomnaLocalizations {
   /// In vi, this message translates to:
   /// **'Đã xóa bản dịch khỏi danh sách đã lưu'**
   String get l97;
+
+  /// No description provided for @l98.
+  ///
+  /// In vi, this message translates to:
+  /// **'{model, select, ua{Trợ giúp chuyển đổi hàng ngày} ub{Sử dụng quá trình thu thập nâng cao} uc{Lý tưởng cho các nghiên cứu chuyên sâu} other{}}'**
+  String l98(String model);
 }
 
 class _NomnaLocalizationsDelegate extends LocalizationsDelegate<NomnaLocalizations> {

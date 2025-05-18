@@ -4,7 +4,7 @@ import 'package:flutter/widgets.dart';
 
 import 'src/nomna_localizations.dart';
 
-export 'src/nomna_localizations.dart' show NomnaLocalizations;
+export 'src/nomna_localizations.dart';
 
 extension NomnaLocale on BuildContext {
   static const String _defaultTag = 'vi';

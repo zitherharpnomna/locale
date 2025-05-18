@@ -29,7 +29,7 @@
     "l16": "Xóa tất cả",
     "l17": "Xác nhận",
     "l18": "Quay lại",
-    "l19": "Chọn ảnh từ...",
+    "l19": "Mô hình",
     "l20": "Xác nhận xóa tất cả phiên lịch sử?",
     "l21": "Dịch nhanh",
     "l22": "Phiên bản ứng dụng: {version}",
@@ -57,7 +57,7 @@
     "l44": "Giọng nói",
     "l45": "Xác nhận xóa tất cả phiên đã lưu?",
     "l46": "Đang xử lý...",
-    "l47": "{language, select, en{Tiếng Anh} zh{Tiếng Trung} zh_Hans{Tiếng Trung (Giản thể)} zh_Hant{Tiếng Trung (Phồn thể)} vi{Tiếng Việt} vi_HN{Tiếng Việt (Hán Nôm)} other{}}",
+    "l47": "{language, select, en{Tiếng Anh} zh{Tiếng Trung} zh_Hans{Tiếng Trung (Giản thể)} zh_Hant{Tiếng Trung (Phồn thể)} vi{Tiếng Việt} vi_Nom{Tiếng Việt (Hán Nôm)} other{}}",
     "l48": "Đã có lỗi xảy ra",
     "l49": "Thử lại",
     "l50": "Dịch từ",
@@ -91,7 +91,7 @@
     "l78": "Cắt",
     "l79": "Sao chép",
     "l80": "Đề xuất bản dịch",
-    "l81": "Mở trong Nomna Phiên dịch",
+    "l81": "Mở trong Nomna {object, select, translate{Phiên dịch} other{}}",
     "l82": "Chúng tôi sẽ sử dụng nội dung bạn đóng góp để cải thiện chất lượng bản dịch và có thể cho người dùng khác xem các nội dung này (mà không xác định danh tính của bạn).",
     "l83": "Chia sẻ ứng dụng Nomna Đóng góp với bạn bè để họ cũng có thể bắt đầu tham gia đóng góp.",
     "l84": "Chia sẻ với bạn bè",
@@ -107,5 +107,6 @@
     "l94": "Mô tả ý kiến phản hồi của bạn",
     "l95": "Toàn màn hình",
     "l96": "Đã thêm bản dịch vào danh sách đã lưu",
-    "l97": "Đã xóa bản dịch khỏi danh sách đã lưu"
+    "l97": "Đã xóa bản dịch khỏi danh sách đã lưu",
+    "l98": "{model, select, ua{Trợ giúp chuyển đổi hàng ngày} ub{Sử dụng quá trình thu thập nâng cao} uc{Lý tưởng cho các nghiên cứu chuyên sâu} other{}}"
 }
