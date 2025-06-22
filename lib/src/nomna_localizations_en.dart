@@ -491,4 +491,26 @@ class NomnaLocalizationsEn extends NomnaLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String l99(String script) {
+    String _temp0 = intl.Intl.selectLogic(
+      script,
+      {
+        'latin': 'Quốc ngữ',
+        'chinese': 'Hán Nôm',
+        'other': '',
+      },
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get l000 => 'Thử ngay';
+
+  @override
+  String get l001 => 'Tùy chỉnh mô hình cho riêng bạn';
+
+  @override
+  String get l002 => 'Ý của bạn là';
 }

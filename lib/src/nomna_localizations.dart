@@ -94,7 +94,6 @@ abstract class NomnaLocalizations {
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
     Locale('vi'),
-    Locale('vi', 'Nom'),
     Locale('zh'),
     Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hans'),
     Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant')
@@ -753,6 +752,30 @@ abstract class NomnaLocalizations {
   /// In vi, this message translates to:
   /// **'{model, select, ua{Trợ giúp chuyển đổi hàng ngày} ub{Sử dụng quá trình thu thập nâng cao} uc{Lý tưởng cho các nghiên cứu chuyên sâu} other{}}'**
   String l98(String model);
+
+  /// No description provided for @l99.
+  ///
+  /// In vi, this message translates to:
+  /// **'{script, select, latin{Quốc ngữ} chinese{Hán Nôm} other{}}'**
+  String l99(String script);
+
+  /// No description provided for @l000.
+  ///
+  /// In vi, this message translates to:
+  /// **'Thử ngay'**
+  String get l000;
+
+  /// No description provided for @l001.
+  ///
+  /// In vi, this message translates to:
+  /// **'Tùy chỉnh mô hình cho riêng bạn'**
+  String get l001;
+
+  /// No description provided for @l002.
+  ///
+  /// In vi, this message translates to:
+  /// **'Ý của bạn là'**
+  String get l002;
 }
 
 class _NomnaLocalizationsDelegate extends LocalizationsDelegate<NomnaLocalizations> {
@@ -778,16 +801,6 @@ NomnaLocalizations lookupNomnaLocalizations(Locale locale) {
   switch (locale.scriptCode) {
     case 'Hans': return NomnaLocalizationsZhHans();
 case 'Hant': return NomnaLocalizationsZhHant();
-   }
-  break;
-   }
-  }
-
-  // Lookup logic when language+country codes are specified.
-  switch (locale.languageCode) {
-    case 'vi': {
-  switch (locale.countryCode) {
-    case 'Nom': return NomnaLocalizationsViNom();
    }
   break;
    }

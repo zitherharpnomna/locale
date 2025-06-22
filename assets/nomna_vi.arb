@@ -108,5 +108,9 @@
     "l95": "Toàn màn hình",
     "l96": "Đã thêm bản dịch vào danh sách đã lưu",
     "l97": "Đã xóa bản dịch khỏi danh sách đã lưu",
-    "l98": "{model, select, ua{Trợ giúp chuyển đổi hàng ngày} ub{Sử dụng quá trình thu thập nâng cao} uc{Lý tưởng cho các nghiên cứu chuyên sâu} other{}}"
+    "l98": "{model, select, ua{Trợ giúp chuyển đổi hàng ngày} ub{Sử dụng quá trình thu thập nâng cao} uc{Lý tưởng cho các nghiên cứu chuyên sâu} other{}}",
+    "l99": "{script, select, latin{Quốc ngữ} chinese{Hán Nôm} other{}}",
+    "l000": "Thử ngay",
+    "l001": "Tùy chỉnh mô hình cho riêng bạn",
+    "l002": "Ý của bạn là"
 }

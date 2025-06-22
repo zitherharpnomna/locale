@@ -25,6 +25,7 @@ extension NomnaLocale on BuildContext {
       lookupNomnaLocalizations(vi);
 
   /// Returns the [NomnaLocalizations] instance for the current [BuildContext].
+  /// 
   /// If the localization is not found, it falls back to the [defaultLocalizations].
   NomnaLocalizations get localizations =>
       NomnaLocalizations.of(this) ?? defaultLocalizations;
