@@ -776,6 +776,12 @@ abstract class NomnaLocalizations {
   /// In vi, this message translates to:
   /// **'Ý của bạn là'**
   String get l002;
+
+  /// No description provided for @l003.
+  ///
+  /// In vi, this message translates to:
+  /// **'Xem thêm bản dịch'**
+  String get l003;
 }
 
 class _NomnaLocalizationsDelegate extends LocalizationsDelegate<NomnaLocalizations> {

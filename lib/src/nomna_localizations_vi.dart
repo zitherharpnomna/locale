@@ -513,4 +513,7 @@ class NomnaLocalizationsVi extends NomnaLocalizations {
 
   @override
   String get l002 => 'Ý của bạn là';
+
+  @override
+  String get l003 => 'Xem thêm bản dịch';
 }

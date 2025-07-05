@@ -497,8 +497,8 @@ class NomnaLocalizationsZh extends NomnaLocalizations {
     String _temp0 = intl.Intl.selectLogic(
       script,
       {
-        'latin': 'Quốc ngữ',
-        'chinese': 'Hán Nôm',
+        'latin': '国语',
+        'chinese': '汉喃',
         'other': '',
       },
     );
@@ -506,13 +506,16 @@ class NomnaLocalizationsZh extends NomnaLocalizations {
   }
 
   @override
-  String get l000 => 'Thử ngay';
+  String get l000 => '立即试用';
 
   @override
-  String get l001 => 'Tùy chỉnh mô hình cho riêng bạn';
+  String get l001 => '定制您自己的模型';
 
   @override
-  String get l002 => 'Ý của bạn là';
+  String get l002 => '您的意思是';
+
+  @override
+  String get l003 => '更多翻译';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hans`).
@@ -1002,6 +1005,31 @@ class NomnaLocalizationsZhHans extends NomnaLocalizationsZh {
     );
     return '$_temp0';
   }
+
+  @override
+  String l99(String script) {
+    String _temp0 = intl.Intl.selectLogic(
+      script,
+      {
+        'latin': '国语',
+        'chinese': '汉喃',
+        'other': '',
+      },
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get l000 => '立即试用';
+
+  @override
+  String get l001 => '定制您自己的模型';
+
+  @override
+  String get l002 => '您的意思是';
+
+  @override
+  String get l003 => '更多翻译';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -1491,4 +1519,29 @@ class NomnaLocalizationsZhHant extends NomnaLocalizationsZh {
     );
     return '$_temp0';
   }
+
+  @override
+  String l99(String script) {
+    String _temp0 = intl.Intl.selectLogic(
+      script,
+      {
+        'latin': '國語',
+        'chinese': '漢喃',
+        'other': '',
+      },
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get l000 => '立即試用';
+
+  @override
+  String get l001 => '自訂您自己的模型';
+
+  @override
+  String get l002 => '您的意思是';
+
+  @override
+  String get l003 => '更多翻譯';
 }

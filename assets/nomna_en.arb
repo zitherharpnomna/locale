@@ -108,5 +108,10 @@
     "l95": "Full screen",
     "l96": "Translation added to saved list",
     "l97": "Translation removed from saved list",
-    "l98": "{model, select, ua{Daily conversion help} ub{Use advanced collection} uc{Ideal for in-depth research} other{}}"
+    "l98": "{model, select, ua{Daily conversion help} ub{Use advanced collection} uc{Ideal for in-depth research} other{}}",
+    "l99": "{script, select, latin{Latin} chinese{Nom} other{}}",
+    "l000": "Try now",
+    "l001": "Custom your model",
+    "l002": "Do you mean",
+    "l003": "See more translations"
 }
