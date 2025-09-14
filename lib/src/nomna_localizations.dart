@@ -99,6 +99,48 @@ abstract class NomnaLocalizations {
     Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant')
   ];
 
+  /// No description provided for @a0.
+  ///
+  /// In vi, this message translates to:
+  /// **'Trình duyệt'**
+  String get a0;
+
+  /// No description provided for @a1.
+  ///
+  /// In vi, this message translates to:
+  /// **'Thẻ mới'**
+  String get a1;
+
+  /// No description provided for @a2.
+  ///
+  /// In vi, this message translates to:
+  /// **'Thẻ ẩn danh mới'**
+  String get a2;
+
+  /// No description provided for @a3.
+  ///
+  /// In vi, this message translates to:
+  /// **'Chọn các thẻ'**
+  String get a3;
+
+  /// No description provided for @a4.
+  ///
+  /// In vi, this message translates to:
+  /// **'Đóng tất cả các thẻ'**
+  String get a4;
+
+  /// No description provided for @a5.
+  ///
+  /// In vi, this message translates to:
+  /// **'Xoá dữ liệu duyệt web'**
+  String get a5;
+
+  /// No description provided for @a6.
+  ///
+  /// In vi, this message translates to:
+  /// **'Tìm kiếm hoặc nhập địa chỉ web'**
+  String get a6;
+
   /// No description provided for @l0.
   ///
   /// In vi, this message translates to:

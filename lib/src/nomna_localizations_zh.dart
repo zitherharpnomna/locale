@@ -9,6 +9,27 @@ class NomnaLocalizationsZh extends NomnaLocalizations {
   NomnaLocalizationsZh([String locale = 'zh']) : super(locale);
 
   @override
+  String get a0 => 'Trình duyệt';
+
+  @override
+  String get a1 => 'Thẻ mới';
+
+  @override
+  String get a2 => 'Thẻ ẩn danh mới';
+
+  @override
+  String get a3 => 'Chọn các thẻ';
+
+  @override
+  String get a4 => 'Đóng tất cả các thẻ';
+
+  @override
+  String get a5 => 'Xoá dữ liệu duyệt web';
+
+  @override
+  String get a6 => 'Tìm kiếm hoặc nhập địa chỉ web';
+
+  @override
   String get l0 => '翻译';
 
   @override

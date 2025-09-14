@@ -1,5 +1,12 @@
 {
     "@@locale": "vi",
+    "a0": "Trình duyệt",
+    "a1": "Thẻ mới",
+    "a2": "Thẻ ẩn danh mới",
+    "a3": "Chọn các thẻ",
+    "a4": "Đóng tất cả các thẻ",
+    "a5": "Xoá dữ liệu duyệt web",
+    "a6": "Tìm kiếm hoặc nhập địa chỉ web",
     "l0": "Phiên dịch",
     "l1": "Máy ảnh",
     "l2": "Thư viện",
