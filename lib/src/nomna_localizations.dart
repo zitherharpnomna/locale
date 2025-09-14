@@ -141,6 +141,30 @@ abstract class NomnaLocalizations {
   /// **'Tìm kiếm hoặc nhập địa chỉ web'**
   String get a6;
 
+  /// No description provided for @a7.
+  ///
+  /// In vi, this message translates to:
+  /// **'Dấu trang'**
+  String get a7;
+
+  /// No description provided for @a8.
+  ///
+  /// In vi, this message translates to:
+  /// **'Chỉnh sửa'**
+  String get a8;
+
+  /// No description provided for @a9.
+  ///
+  /// In vi, this message translates to:
+  /// **'Thêm mới'**
+  String get a9;
+
+  /// No description provided for @a10.
+  ///
+  /// In vi, this message translates to:
+  /// **'Xoá'**
+  String get a10;
+
   /// No description provided for @l0.
   ///
   /// In vi, this message translates to:

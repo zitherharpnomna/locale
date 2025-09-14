@@ -30,6 +30,18 @@ class NomnaLocalizationsEn extends NomnaLocalizations {
   String get a6 => 'Tìm kiếm hoặc nhập địa chỉ web';
 
   @override
+  String get a7 => 'Dấu trang';
+
+  @override
+  String get a8 => 'Chỉnh sửa';
+
+  @override
+  String get a9 => 'Thêm mới';
+
+  @override
+  String get a10 => 'Xoá';
+
+  @override
   String get l0 => 'Translate';
 
   @override
