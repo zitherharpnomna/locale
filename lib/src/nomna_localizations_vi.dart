@@ -18,7 +18,7 @@ class NomnaLocalizationsVi extends NomnaLocalizations {
   String get a2 => 'Thẻ ẩn danh mới';
 
   @override
-  String get a3 => 'Chọn các thẻ';
+  String get a3 => 'Chọn tất cả các thẻ';
 
   @override
   String get a4 => 'Đóng tất cả các thẻ';
@@ -40,6 +40,23 @@ class NomnaLocalizationsVi extends NomnaLocalizations {
 
   @override
   String get a10 => 'Xoá';
+
+  @override
+  String a11(Object count) {
+    return '$count thẻ đã chọn';
+  }
+
+  @override
+  String get a12 => 'Bỏ chọn các thẻ';
+
+  @override
+  String get a13 => 'Đóng các thẻ';
+
+  @override
+  String get a14 => 'Đánh dấu các thẻ';
+
+  @override
+  String get a15 => 'Chia sẻ các thẻ';
 
   @override
   String get l0 => 'Phiên dịch';

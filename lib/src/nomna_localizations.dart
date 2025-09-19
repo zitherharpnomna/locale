@@ -120,7 +120,7 @@ abstract class NomnaLocalizations {
   /// No description provided for @a3.
   ///
   /// In vi, this message translates to:
-  /// **'Chọn các thẻ'**
+  /// **'Chọn tất cả các thẻ'**
   String get a3;
 
   /// No description provided for @a4.
@@ -164,6 +164,36 @@ abstract class NomnaLocalizations {
   /// In vi, this message translates to:
   /// **'Xoá'**
   String get a10;
+
+  /// No description provided for @a11.
+  ///
+  /// In vi, this message translates to:
+  /// **'{count} thẻ đã chọn'**
+  String a11(Object count);
+
+  /// No description provided for @a12.
+  ///
+  /// In vi, this message translates to:
+  /// **'Bỏ chọn các thẻ'**
+  String get a12;
+
+  /// No description provided for @a13.
+  ///
+  /// In vi, this message translates to:
+  /// **'Đóng các thẻ'**
+  String get a13;
+
+  /// No description provided for @a14.
+  ///
+  /// In vi, this message translates to:
+  /// **'Đánh dấu các thẻ'**
+  String get a14;
+
+  /// No description provided for @a15.
+  ///
+  /// In vi, this message translates to:
+  /// **'Chia sẻ các thẻ'**
+  String get a15;
 
   /// No description provided for @l0.
   ///
