@@ -195,6 +195,24 @@ abstract class NomnaLocalizations {
   /// **'Chia sẻ các thẻ'**
   String get a15;
 
+  /// No description provided for @h0.
+  ///
+  /// In vi, this message translates to:
+  /// **'Tin tức'**
+  String get h0;
+
+  /// No description provided for @h1.
+  ///
+  /// In vi, this message translates to:
+  /// **'Theo dõi'**
+  String get h1;
+
+  /// No description provided for @h2.
+  ///
+  /// In vi, this message translates to:
+  /// **'Quầy báo'**
+  String get h2;
+
   /// No description provided for @l0.
   ///
   /// In vi, this message translates to:

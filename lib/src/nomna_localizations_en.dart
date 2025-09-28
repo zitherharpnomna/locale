@@ -59,6 +59,15 @@ class NomnaLocalizationsEn extends NomnaLocalizations {
   String get a15 => 'Chia sẻ các thẻ';
 
   @override
+  String get h0 => 'Tin tức';
+
+  @override
+  String get h1 => 'Theo dõi';
+
+  @override
+  String get h2 => 'Quầy báo';
+
+  @override
   String get l0 => 'Translate';
 
   @override
