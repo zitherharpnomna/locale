@@ -5,25 +5,25 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
-import 'nomna_localizations_en.dart';
-import 'nomna_localizations_vi.dart';
-import 'nomna_localizations_zh.dart';
+import 'nomna_locale_en.dart';
+import 'nomna_locale_vi.dart';
+import 'nomna_locale_zh.dart';
 
 // ignore_for_file: type=lint
 
-/// Callers can lookup localized strings with an instance of NomnaLocalizations
-/// returned by `NomnaLocalizations.of(context)`.
+/// Callers can lookup localized strings with an instance of NomnaLocale
+/// returned by `NomnaLocale.of(context)`.
 ///
-/// Applications need to include `NomnaLocalizations.delegate()` in their app's
+/// Applications need to include `NomnaLocale.delegate()` in their app's
 /// `localizationDelegates` list, and the locales they support in the app's
 /// `supportedLocales` list. For example:
 ///
 /// ```dart
-/// import 'src/nomna_localizations.dart';
+/// import 'src/nomna_locale.dart';
 ///
 /// return MaterialApp(
-///   localizationsDelegates: NomnaLocalizations.localizationsDelegates,
-///   supportedLocales: NomnaLocalizations.supportedLocales,
+///   localizationsDelegates: NomnaLocale.localizationsDelegates,
+///   supportedLocales: NomnaLocale.supportedLocales,
 ///   home: MyApplicationHome(),
 /// );
 /// ```
@@ -60,18 +60,20 @@ import 'nomna_localizations_zh.dart';
 /// Select and expand the newly-created Localizations item then, for each
 /// locale your application supports, add a new item and select the locale
 /// you wish to add from the pop-up menu in the Value field. This list should
-/// be consistent with the languages listed in the NomnaLocalizations.supportedLocales
+/// be consistent with the languages listed in the NomnaLocale.supportedLocales
 /// property.
-abstract class NomnaLocalizations {
-  NomnaLocalizations(String locale) : localeName = intl.Intl.canonicalizedLocale(locale.toString());
+abstract class NomnaLocale {
+  NomnaLocale(String locale)
+      : localeName = intl.Intl.canonicalizedLocale(locale.toString());
 
   final String localeName;
 
-  static NomnaLocalizations? of(BuildContext context) {
-    return Localizations.of<NomnaLocalizations>(context, NomnaLocalizations);
+  static NomnaLocale? of(BuildContext context) {
+    return Localizations.of<NomnaLocale>(context, NomnaLocale);
   }
 
-  static const LocalizationsDelegate<NomnaLocalizations> delegate = _NomnaLocalizationsDelegate();
+  static const LocalizationsDelegate<NomnaLocale> delegate =
+      _NomnaLocaleDelegate();
 
   /// A list of this localizations delegate along with the default localizations
   /// delegates.
@@ -83,7 +85,8 @@ abstract class NomnaLocalizations {
   /// Additional delegates can be added by appending to this list in
   /// MaterialApp. This list does not have to be used at all if a custom list
   /// of delegates is preferred or required.
-  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates = <LocalizationsDelegate<dynamic>>[
+  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates =
+      <LocalizationsDelegate<dynamic>>[
     delegate,
     GlobalMaterialLocalizations.delegate,
     GlobalCupertinoLocalizations.delegate,
@@ -159,6 +162,12 @@ abstract class NomnaLocalizations {
   /// **'Thêm mới'**
   String get a9;
 
+  /// No description provided for @a00.
+  ///
+  /// In vi, this message translates to:
+  /// **'Bước {index}'**
+  String a00(Object index);
+
   /// No description provided for @a10.
   ///
   /// In vi, this message translates to:
@@ -194,6 +203,228 @@ abstract class NomnaLocalizations {
   /// In vi, this message translates to:
   /// **'Chia sẻ các thẻ'**
   String get a15;
+
+  /// No description provided for @a16.
+  ///
+  /// In vi, this message translates to:
+  /// **'Lịch biểu'**
+  String get a16;
+
+  /// No description provided for @a17.
+  ///
+  /// In vi, this message translates to:
+  /// **'Từ điển'**
+  String get a17;
+
+  /// No description provided for @a18.
+  ///
+  /// In vi, this message translates to:
+  /// **'Trò chơi'**
+  String get a18;
+
+  /// No description provided for @a19.
+  ///
+  /// In vi, this message translates to:
+  /// **'Thông báo'**
+  String get a19;
+
+  /// No description provided for @a20.
+  ///
+  /// In vi, this message translates to:
+  /// **'Ứng dụng'**
+  String get a20;
+
+  /// No description provided for @a21.
+  ///
+  /// In vi, this message translates to:
+  /// **'Sự kiện'**
+  String get a21;
+
+  /// No description provided for @a22.
+  ///
+  /// In vi, this message translates to:
+  /// **'Nhiệm vụ'**
+  String get a22;
+
+  /// No description provided for @a23.
+  ///
+  /// In vi, this message translates to:
+  /// **'Gia phả'**
+  String get a23;
+
+  /// No description provided for @a24.
+  ///
+  /// In vi, this message translates to:
+  /// **'Bàn phím'**
+  String get a24;
+
+  /// No description provided for @a25.
+  ///
+  /// In vi, this message translates to:
+  /// **'Âm nhạc'**
+  String get a25;
+
+  /// No description provided for @a26.
+  ///
+  /// In vi, this message translates to:
+  /// **'Chọn |Nomna Bàn phím| trong mục cài đặt |Ngôn ngữ và bàn phím|'**
+  String get a26;
+
+  /// No description provided for @a27.
+  ///
+  /// In vi, this message translates to:
+  /// **'Chọn |Nomna Bàn phím| làm phương thức nhập mặc định'**
+  String get a27;
+
+  /// No description provided for @a28.
+  ///
+  /// In vi, this message translates to:
+  /// **'Chọn phương thức nhập'**
+  String get a28;
+
+  /// No description provided for @a29.
+  ///
+  /// In vi, this message translates to:
+  /// **'Biểu tượng ứng dụng'**
+  String get a29;
+
+  /// No description provided for @a30.
+  ///
+  /// In vi, this message translates to:
+  /// **'Hiển thị trong danh sách ứng dụng'**
+  String get a30;
+
+  /// No description provided for @a31.
+  ///
+  /// In vi, this message translates to:
+  /// **'|Nomna Bàn phím| đã sẵn sàng để sử dụng'**
+  String get a31;
+
+  /// No description provided for @a32.
+  ///
+  /// In vi, this message translates to:
+  /// **'Hoàn tất thiết lập'**
+  String get a32;
+
+  /// No description provided for @a33.
+  ///
+  /// In vi, this message translates to:
+  /// **'Nhập liệu bằng giọng nói'**
+  String get a33;
+
+  /// No description provided for @a34.
+  ///
+  /// In vi, this message translates to:
+  /// **'Màu cơ bản'**
+  String get a34;
+
+  /// No description provided for @a35.
+  ///
+  /// In vi, this message translates to:
+  /// **'Màu nâng cao'**
+  String get a35;
+
+  /// No description provided for @a36.
+  ///
+  /// In vi, this message translates to:
+  /// **'Đã nhập dữ liệu thành công'**
+  String get a36;
+
+  /// No description provided for @a37.
+  ///
+  /// In vi, this message translates to:
+  /// **'Đã xuất dữ liệu thành công'**
+  String get a37;
+
+  /// No description provided for @a38.
+  ///
+  /// In vi, this message translates to:
+  /// **'Nhập dữ liệu'**
+  String get a38;
+
+  /// No description provided for @a39.
+  ///
+  /// In vi, this message translates to:
+  /// **'Xuất dữ liệu'**
+  String get a39;
+
+  /// No description provided for @a40.
+  ///
+  /// In vi, this message translates to:
+  /// **'Khôi phục dữ liệu gốc'**
+  String get a40;
+
+  /// No description provided for @a41.
+  ///
+  /// In vi, this message translates to:
+  /// **'Quốc ngữ'**
+  String get a41;
+
+  /// No description provided for @a42.
+  ///
+  /// In vi, this message translates to:
+  /// **'Hán Nôm'**
+  String get a42;
+
+  /// No description provided for @a43.
+  ///
+  /// In vi, this message translates to:
+  /// **'Nomna hỗ trợ các ngôn ngữ:'**
+  String get a43;
+
+  /// No description provided for @a44.
+  ///
+  /// In vi, this message translates to:
+  /// **'Các ứng dụng khác trên Google Play'**
+  String get a44;
+
+  /// No description provided for @a45.
+  ///
+  /// In vi, this message translates to:
+  /// **'Do Zither Harp tự động tạo'**
+  String get a45;
+
+  /// No description provided for @a46.
+  ///
+  /// In vi, this message translates to:
+  /// **'Chạy'**
+  String get a46;
+
+  /// No description provided for @a47.
+  ///
+  /// In vi, this message translates to:
+  /// **'Mở tệp'**
+  String get a47;
+
+  /// No description provided for @a48.
+  ///
+  /// In vi, this message translates to:
+  /// **'Lưu tệp'**
+  String get a48;
+
+  /// No description provided for @a49.
+  ///
+  /// In vi, this message translates to:
+  /// **'Định dạng'**
+  String get a49;
+
+  /// No description provided for @a50.
+  ///
+  /// In vi, this message translates to:
+  /// **'Mã lệnh'**
+  String get a50;
+
+  /// No description provided for @a51.
+  ///
+  /// In vi, this message translates to:
+  /// **'Đầu vào'**
+  String get a51;
+
+  /// No description provided for @a52.
+  ///
+  /// In vi, this message translates to:
+  /// **'Đầu ra'**
+  String get a52;
 
   /// No description provided for @h0.
   ///
@@ -882,7 +1113,7 @@ abstract class NomnaLocalizations {
   /// No description provided for @l001.
   ///
   /// In vi, this message translates to:
-  /// **'Tùy chỉnh mô hình cho riêng bạn'**
+  /// **'Tùy chỉnh từ điển cho riêng bạn'**
   String get l001;
 
   /// No description provided for @l002.
@@ -898,45 +1129,50 @@ abstract class NomnaLocalizations {
   String get l003;
 }
 
-class _NomnaLocalizationsDelegate extends LocalizationsDelegate<NomnaLocalizations> {
-  const _NomnaLocalizationsDelegate();
+class _NomnaLocaleDelegate extends LocalizationsDelegate<NomnaLocale> {
+  const _NomnaLocaleDelegate();
 
   @override
-  Future<NomnaLocalizations> load(Locale locale) {
-    return SynchronousFuture<NomnaLocalizations>(lookupNomnaLocalizations(locale));
+  Future<NomnaLocale> load(Locale locale) {
+    return SynchronousFuture<NomnaLocale>(lookupNomnaLocale(locale));
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['en', 'vi', 'zh'].contains(locale.languageCode);
+  bool isSupported(Locale locale) =>
+      <String>['en', 'vi', 'zh'].contains(locale.languageCode);
 
   @override
-  bool shouldReload(_NomnaLocalizationsDelegate old) => false;
+  bool shouldReload(_NomnaLocaleDelegate old) => false;
 }
 
-NomnaLocalizations lookupNomnaLocalizations(Locale locale) {
-
+NomnaLocale lookupNomnaLocale(Locale locale) {
   // Lookup logic when language+script codes are specified.
   switch (locale.languageCode) {
-    case 'zh': {
-  switch (locale.scriptCode) {
-    case 'Hans': return NomnaLocalizationsZhHans();
-case 'Hant': return NomnaLocalizationsZhHant();
-   }
-  break;
-   }
+    case 'zh':
+      {
+        switch (locale.scriptCode) {
+          case 'Hans':
+            return NomnaLocaleZhHans();
+          case 'Hant':
+            return NomnaLocaleZhHant();
+        }
+        break;
+      }
   }
 
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
-    case 'en': return NomnaLocalizationsEn();
-    case 'vi': return NomnaLocalizationsVi();
-    case 'zh': return NomnaLocalizationsZh();
+    case 'en':
+      return NomnaLocaleEn();
+    case 'vi':
+      return NomnaLocaleVi();
+    case 'zh':
+      return NomnaLocaleZh();
   }
 
   throw FlutterError(
-    'NomnaLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
-    'an issue with the localizations generation tool. Please file an issue '
-    'on GitHub with a reproducible sample app and the gen-l10n configuration '
-    'that was used.'
-  );
+      'NomnaLocale.delegate failed to load unsupported locale "$locale". This is likely '
+      'an issue with the localizations generation tool. Please file an issue '
+      'on GitHub with a reproducible sample app and the gen-l10n configuration '
+      'that was used.');
 }

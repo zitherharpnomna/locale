@@ -1,12 +1,12 @@
+// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
-
-import 'nomna_localizations.dart';
+import 'nomna_locale.dart';
 
 // ignore_for_file: type=lint
 
 /// The translations for Chinese (`zh`).
-class NomnaLocalizationsZh extends NomnaLocalizations {
-  NomnaLocalizationsZh([String locale = 'zh']) : super(locale);
+class NomnaLocaleZh extends NomnaLocale {
+  NomnaLocaleZh([String locale = 'zh']) : super(locale);
 
   @override
   String get a0 => 'Trình duyệt';
@@ -39,6 +39,11 @@ class NomnaLocalizationsZh extends NomnaLocalizations {
   String get a9 => 'Thêm mới';
 
   @override
+  String a00(Object index) {
+    return 'Bước $index';
+  }
+
+  @override
   String get a10 => 'Xoá';
 
   @override
@@ -57,6 +62,118 @@ class NomnaLocalizationsZh extends NomnaLocalizations {
 
   @override
   String get a15 => 'Chia sẻ các thẻ';
+
+  @override
+  String get a16 => 'Lịch biểu';
+
+  @override
+  String get a17 => 'Từ điển';
+
+  @override
+  String get a18 => 'Trò chơi';
+
+  @override
+  String get a19 => 'Thông báo';
+
+  @override
+  String get a20 => 'Ứng dụng';
+
+  @override
+  String get a21 => 'Sự kiện';
+
+  @override
+  String get a22 => 'Nhiệm vụ';
+
+  @override
+  String get a23 => 'Gia phả';
+
+  @override
+  String get a24 => 'Bàn phím';
+
+  @override
+  String get a25 => 'Âm nhạc';
+
+  @override
+  String get a26 =>
+      'Chọn |Nomna Bàn phím| trong mục cài đặt |Ngôn ngữ và bàn phím|';
+
+  @override
+  String get a27 => 'Chọn |Nomna Bàn phím| làm phương thức nhập mặc định';
+
+  @override
+  String get a28 => 'Chọn phương thức nhập';
+
+  @override
+  String get a29 => 'Biểu tượng ứng dụng';
+
+  @override
+  String get a30 => 'Hiển thị trong danh sách ứng dụng';
+
+  @override
+  String get a31 => '|Nomna Bàn phím| đã sẵn sàng để sử dụng';
+
+  @override
+  String get a32 => 'Hoàn tất thiết lập';
+
+  @override
+  String get a33 => 'Nhập liệu bằng giọng nói';
+
+  @override
+  String get a34 => 'Màu cơ bản';
+
+  @override
+  String get a35 => 'Màu nâng cao';
+
+  @override
+  String get a36 => 'Đã nhập dữ liệu thành công';
+
+  @override
+  String get a37 => 'Đã xuất dữ liệu thành công';
+
+  @override
+  String get a38 => 'Nhập dữ liệu';
+
+  @override
+  String get a39 => 'Xuất dữ liệu';
+
+  @override
+  String get a40 => 'Khôi phục dữ liệu gốc';
+
+  @override
+  String get a41 => 'Quốc ngữ';
+
+  @override
+  String get a42 => 'Hán Nôm';
+
+  @override
+  String get a43 => 'Nomna hỗ trợ các ngôn ngữ:';
+
+  @override
+  String get a44 => 'Các ứng dụng khác trên Google Play';
+
+  @override
+  String get a45 => 'Do Zither Harp tự động tạo';
+
+  @override
+  String get a46 => 'Chạy';
+
+  @override
+  String get a47 => 'Mở tệp';
+
+  @override
+  String get a48 => 'Lưu tệp';
+
+  @override
+  String get a49 => 'Định dạng';
+
+  @override
+  String get a50 => 'Mã lệnh';
+
+  @override
+  String get a51 => 'Đầu vào';
+
+  @override
+  String get a52 => 'Đầu ra';
 
   @override
   String get h0 => 'Tin tức';
@@ -578,8 +695,8 @@ class NomnaLocalizationsZh extends NomnaLocalizations {
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hans`).
-class NomnaLocalizationsZhHans extends NomnaLocalizationsZh {
-  NomnaLocalizationsZhHans(): super('zh_Hans');
+class NomnaLocaleZhHans extends NomnaLocaleZh {
+  NomnaLocaleZhHans() : super('zh_Hans');
 
   @override
   String get l0 => '翻译';
@@ -1092,8 +1209,8 @@ class NomnaLocalizationsZhHans extends NomnaLocalizationsZh {
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
-class NomnaLocalizationsZhHant extends NomnaLocalizationsZh {
-  NomnaLocalizationsZhHant(): super('zh_Hant');
+class NomnaLocaleZhHant extends NomnaLocaleZh {
+  NomnaLocaleZhHant() : super('zh_Hant');
 
   @override
   String get l0 => '翻譯';

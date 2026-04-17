@@ -1,12 +1,12 @@
+// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
-
-import 'nomna_localizations.dart';
+import 'nomna_locale.dart';
 
 // ignore_for_file: type=lint
 
 /// The translations for English (`en`).
-class NomnaLocalizationsEn extends NomnaLocalizations {
-  NomnaLocalizationsEn([String locale = 'en']) : super(locale);
+class NomnaLocaleEn extends NomnaLocale {
+  NomnaLocaleEn([String locale = 'en']) : super(locale);
 
   @override
   String get a0 => 'Trình duyệt';
@@ -39,6 +39,11 @@ class NomnaLocalizationsEn extends NomnaLocalizations {
   String get a9 => 'Thêm mới';
 
   @override
+  String a00(Object index) {
+    return 'Bước $index';
+  }
+
+  @override
   String get a10 => 'Xoá';
 
   @override
@@ -57,6 +62,118 @@ class NomnaLocalizationsEn extends NomnaLocalizations {
 
   @override
   String get a15 => 'Chia sẻ các thẻ';
+
+  @override
+  String get a16 => 'Calendar';
+
+  @override
+  String get a17 => 'Dictionary';
+
+  @override
+  String get a18 => 'Gaming';
+
+  @override
+  String get a19 => 'Thông báo';
+
+  @override
+  String get a20 => 'Ứng dụng';
+
+  @override
+  String get a21 => 'Sự kiện';
+
+  @override
+  String get a22 => 'Nhiệm vụ';
+
+  @override
+  String get a23 => 'Gia phả';
+
+  @override
+  String get a24 => 'Bàn phím';
+
+  @override
+  String get a25 => 'Âm nhạc';
+
+  @override
+  String get a26 =>
+      'Chọn |Nomna Bàn phím| trong mục cài đặt |Ngôn ngữ và bàn phím|';
+
+  @override
+  String get a27 => 'Chọn |Nomna Bàn phím| làm phương thức nhập mặc định';
+
+  @override
+  String get a28 => 'Chọn phương thức nhập';
+
+  @override
+  String get a29 => 'Biểu tượng ứng dụng';
+
+  @override
+  String get a30 => 'Hiển thị trong danh sách ứng dụng';
+
+  @override
+  String get a31 => '|Nomna Bàn phím| đã sẵn sàng để sử dụng';
+
+  @override
+  String get a32 => 'Hoàn tất thiết lập';
+
+  @override
+  String get a33 => 'Nhập liệu bằng giọng nói';
+
+  @override
+  String get a34 => 'Màu cơ bản';
+
+  @override
+  String get a35 => 'Màu nâng cao';
+
+  @override
+  String get a36 => 'Import data successfully';
+
+  @override
+  String get a37 => 'Export data successfully';
+
+  @override
+  String get a38 => 'Import';
+
+  @override
+  String get a39 => 'Export';
+
+  @override
+  String get a40 => 'Restore';
+
+  @override
+  String get a41 => 'Quốc ngữ';
+
+  @override
+  String get a42 => 'Hán Nôm';
+
+  @override
+  String get a43 => 'Nomna offered in:';
+
+  @override
+  String get a44 => 'Các ứng dụng khác trên Google Play';
+
+  @override
+  String get a45 => 'Do Zither Harp tự động tạo';
+
+  @override
+  String get a46 => 'Run';
+
+  @override
+  String get a47 => 'Open';
+
+  @override
+  String get a48 => 'Save';
+
+  @override
+  String get a49 => 'Format';
+
+  @override
+  String get a50 => 'Script';
+
+  @override
+  String get a51 => 'Input';
+
+  @override
+  String get a52 => 'Output';
 
   @override
   String get h0 => 'Tin tức';
@@ -202,22 +319,26 @@ class NomnaLocalizationsEn extends NomnaLocalizations {
   String get l26 => 'Tap to Translate';
 
   @override
-  String get l27 => 'Tap on the Tap to Translate notification or the floating icon to translate from anywhere';
+  String get l27 =>
+      'Tap on the Tap to Translate notification or the floating icon to translate from anywhere';
 
   @override
-  String get l28 => 'When on, Tap to Translate runs in the background and displays a notification';
+  String get l28 =>
+      'When on, Tap to Translate runs in the background and displays a notification';
 
   @override
   String get l29 => 'Show floating icon';
 
   @override
-  String get l30 => 'Floating icon stays on the screen for quick access to Tap to Translate';
+  String get l30 =>
+      'Floating icon stays on the screen for quick access to Tap to Translate';
 
   @override
   String get l31 => 'Auto-translate copied text';
 
   @override
-  String get l32 => 'When you tap on the floating icon, the copied text will automatically be translated';
+  String get l32 =>
+      'When you tap on the floating icon, the copied text will automatically be translated';
 
   @override
   String get l33 => 'Useful';
@@ -443,7 +564,8 @@ class NomnaLocalizationsEn extends NomnaLocalizations {
   String get l69 => 'Italic';
 
   @override
-  String get l70 => 'Only a subset of all the glyphs are shown here.\nDownload the font to view the full set or try it out in the |.';
+  String get l70 =>
+      'Only a subset of all the glyphs are shown here.\nDownload the font to view the full set or try it out in the |.';
 
   @override
   String get l71 => 'Are you sure to delete selected font?';
@@ -460,7 +582,8 @@ class NomnaLocalizationsEn extends NomnaLocalizations {
   String get l74 => 'Custom';
 
   @override
-  String get l75 => 'If this is your first time using the app, please check your network connection and try again later.';
+  String get l75 =>
+      'If this is your first time using the app, please check your network connection and try again later.';
 
   @override
   String get l76 => 'Select';
@@ -490,10 +613,12 @@ class NomnaLocalizationsEn extends NomnaLocalizations {
   }
 
   @override
-  String get l82 => 'We\'ll use your contributions to improve translation quality and may show them to other users (without identifying you).';
+  String get l82 =>
+      'We\'ll use your contributions to improve translation quality and may show them to other users (without identifying you).';
 
   @override
-  String get l83 => 'Share the Nomna Contribute app with your friends so they can start contributing too.';
+  String get l83 =>
+      'Share the Nomna Contribute app with your friends so they can start contributing too.';
 
   @override
   String get l84 => 'Share with friends';
