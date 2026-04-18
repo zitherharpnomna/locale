@@ -9,3 +9,6 @@
 
 ## 1.1.0
 - Tiếng Việt (Hán Nôm)
+
+## 1.2.0
+- Breaking changes
