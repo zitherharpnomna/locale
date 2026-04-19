@@ -249,28 +249,22 @@ class NomnaLocaleVi extends NomnaLocale {
 
   @override
   String l11(String theme) {
-    String _temp0 = intl.Intl.selectLogic(
-      theme,
-      {
-        'system': 'Tự động',
-        'light': 'Sáng',
-        'dark': 'Tối',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(theme, {
+      'system': 'Tự động',
+      'light': 'Sáng',
+      'dark': 'Tối',
+      'other': '',
+    });
     return '$_temp0';
   }
 
   @override
   String l12(String status) {
-    String _temp0 = intl.Intl.selectLogic(
-      status,
-      {
-        'listening': 'Đang nghe...',
-        'notListening': 'Đã kết thúc phiên',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(status, {
+      'listening': 'Đang nghe...',
+      'notListening': 'Đã kết thúc phiên',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -364,15 +358,12 @@ class NomnaLocaleVi extends NomnaLocale {
 
   @override
   String l40(String speed) {
-    String _temp0 = intl.Intl.selectLogic(
-      speed,
-      {
-        'normal': 'Chuẩn',
-        'slow': 'Chậm',
-        'slower': 'Chậm hơn',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(speed, {
+      'normal': 'Chuẩn',
+      'slow': 'Chậm',
+      'slower': 'Chậm hơn',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -381,15 +372,12 @@ class NomnaLocaleVi extends NomnaLocale {
 
   @override
   String l42(String size) {
-    String _temp0 = intl.Intl.selectLogic(
-      size,
-      {
-        'large': 'Lớn',
-        'medium': 'Vừa',
-        'small': 'Nhỏ',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(size, {
+      'large': 'Lớn',
+      'medium': 'Vừa',
+      'small': 'Nhỏ',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -407,18 +395,15 @@ class NomnaLocaleVi extends NomnaLocale {
 
   @override
   String l47(String language) {
-    String _temp0 = intl.Intl.selectLogic(
-      language,
-      {
-        'en': 'Tiếng Anh',
-        'zh': 'Tiếng Trung',
-        'zh_Hans': 'Tiếng Trung (Giản thể)',
-        'zh_Hant': 'Tiếng Trung (Phồn thể)',
-        'vi': 'Tiếng Việt',
-        'vi_Nom': 'Tiếng Việt (Hán Nôm)',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(language, {
+      'en': 'Tiếng Anh',
+      'zh': 'Tiếng Trung',
+      'zh_Hans': 'Tiếng Trung (Giản thể)',
+      'zh_Hant': 'Tiếng Trung (Phồn thể)',
+      'vi': 'Tiếng Việt',
+      'vi_Nom': 'Tiếng Việt (Hán Nôm)',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -454,15 +439,12 @@ class NomnaLocaleVi extends NomnaLocale {
 
   @override
   String l58(String weekday) {
-    String _temp0 = intl.Intl.selectLogic(
-      weekday,
-      {
-        '1': 'Thứ hai',
-        '6': 'Thứ bảy',
-        '7': 'Chủ nhật',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(weekday, {
+      '1': 'Thứ hai',
+      '6': 'Thứ bảy',
+      '7': 'Chủ nhật',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -471,60 +453,51 @@ class NomnaLocaleVi extends NomnaLocale {
 
   @override
   String l60(String calendarView) {
-    String _temp0 = intl.Intl.selectLogic(
-      calendarView,
-      {
-        'schedule': 'Lịch biểu',
-        'day': 'Ngày',
-        'week': 'Tuần',
-        'month': 'Tháng',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(calendarView, {
+      'schedule': 'Lịch biểu',
+      'day': 'Ngày',
+      'week': 'Tuần',
+      'month': 'Tháng',
+      'other': '',
+    });
     return '$_temp0';
   }
 
   @override
   String l61(String stem) {
-    String _temp0 = intl.Intl.selectLogic(
-      stem,
-      {
-        '0': 'Giáp',
-        '1': 'Ất',
-        '2': 'Bính',
-        '3': 'Đinh',
-        '4': 'Mậu',
-        '5': 'Kỷ',
-        '6': 'Canh',
-        '7': 'Tân',
-        '8': 'Nhâm',
-        '9': 'Quý',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(stem, {
+      '0': 'Giáp',
+      '1': 'Ất',
+      '2': 'Bính',
+      '3': 'Đinh',
+      '4': 'Mậu',
+      '5': 'Kỷ',
+      '6': 'Canh',
+      '7': 'Tân',
+      '8': 'Nhâm',
+      '9': 'Quý',
+      'other': '',
+    });
     return '$_temp0';
   }
 
   @override
   String l62(String branch) {
-    String _temp0 = intl.Intl.selectLogic(
-      branch,
-      {
-        '0': 'Tý',
-        '1': 'Sửu',
-        '2': 'Dần',
-        '3': 'Mão',
-        '4': 'Thìn',
-        '5': 'Tỵ',
-        '6': 'Ngọ',
-        '7': 'Mùi',
-        '8': 'Thân',
-        '9': 'Dậu',
-        '10': 'Tuất',
-        '11': 'Hợi',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(branch, {
+      '0': 'Tý',
+      '1': 'Sửu',
+      '2': 'Dần',
+      '3': 'Mão',
+      '4': 'Thìn',
+      '5': 'Tỵ',
+      '6': 'Ngọ',
+      '7': 'Mùi',
+      '8': 'Thân',
+      '9': 'Dậu',
+      '10': 'Tuất',
+      '11': 'Hợi',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -542,17 +515,14 @@ class NomnaLocaleVi extends NomnaLocale {
 
   @override
   String l67(String fontFamily) {
-    String _temp0 = intl.Intl.selectLogic(
-      fontFamily,
-      {
-        'nomnatong': 'Nôm Na Tống',
-        'hannomgothic': 'Hán Nôm Gothic',
-        'hannomkhai': 'Hán Nôm Khải',
-        'hannomminh': 'Hán Nôm Minh',
-        'misansl3': 'MiSans L3',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(fontFamily, {
+      'nomnatong': 'Nôm Na Tống',
+      'hannomgothic': 'Hán Nôm Gothic',
+      'hannomkhai': 'Hán Nôm Khải',
+      'hannomminh': 'Hán Nôm Minh',
+      'misansl3': 'MiSans L3',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -603,13 +573,10 @@ class NomnaLocaleVi extends NomnaLocale {
 
   @override
   String l81(String object) {
-    String _temp0 = intl.Intl.selectLogic(
-      object,
-      {
-        'translate': 'Phiên dịch',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(object, {
+      'translate': 'Phiên dịch',
+      'other': '',
+    });
     return 'Mở trong Nomna $_temp0';
   }
 
@@ -665,28 +632,22 @@ class NomnaLocaleVi extends NomnaLocale {
 
   @override
   String l98(String model) {
-    String _temp0 = intl.Intl.selectLogic(
-      model,
-      {
-        'ua': 'Trợ giúp chuyển đổi hàng ngày',
-        'ub': 'Sử dụng quá trình thu thập nâng cao',
-        'uc': 'Lý tưởng cho các nghiên cứu chuyên sâu',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(model, {
+      'ua': 'Trợ giúp chuyển đổi hàng ngày',
+      'ub': 'Sử dụng quá trình thu thập nâng cao',
+      'uc': 'Lý tưởng cho các nghiên cứu chuyên sâu',
+      'other': '',
+    });
     return '$_temp0';
   }
 
   @override
   String l99(String script) {
-    String _temp0 = intl.Intl.selectLogic(
-      script,
-      {
-        'latin': 'Quốc ngữ',
-        'chinese': 'Hán Nôm',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(script, {
+      'latin': 'Quốc ngữ',
+      'chinese': 'Hán Nôm',
+      'other': '',
+    });
     return '$_temp0';
   }
 

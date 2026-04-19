@@ -249,28 +249,22 @@ class NomnaLocaleZh extends NomnaLocale {
 
   @override
   String l11(String theme) {
-    String _temp0 = intl.Intl.selectLogic(
-      theme,
-      {
-        'system': '自动',
-        'light': '亮',
-        'dark': '暗',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(theme, {
+      'system': '自动',
+      'light': '亮',
+      'dark': '暗',
+      'other': '',
+    });
     return '$_temp0';
   }
 
   @override
   String l12(String status) {
-    String _temp0 = intl.Intl.selectLogic(
-      status,
-      {
-        'listening': '正在聆听···',
-        'notListening': '停止聆听',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(status, {
+      'listening': '正在聆听···',
+      'notListening': '停止聆听',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -359,15 +353,12 @@ class NomnaLocaleZh extends NomnaLocale {
 
   @override
   String l40(String speed) {
-    String _temp0 = intl.Intl.selectLogic(
-      speed,
-      {
-        'normal': '正常',
-        'slow': '慢',
-        'slower': '较慢',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(speed, {
+      'normal': '正常',
+      'slow': '慢',
+      'slower': '较慢',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -376,15 +367,12 @@ class NomnaLocaleZh extends NomnaLocale {
 
   @override
   String l42(String size) {
-    String _temp0 = intl.Intl.selectLogic(
-      size,
-      {
-        'large': '大',
-        'medium': '中',
-        'small': '小',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(size, {
+      'large': '大',
+      'medium': '中',
+      'small': '小',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -402,18 +390,15 @@ class NomnaLocaleZh extends NomnaLocale {
 
   @override
   String l47(String language) {
-    String _temp0 = intl.Intl.selectLogic(
-      language,
-      {
-        'en': '英语',
-        'zh': '中文',
-        'zh_Hans': '中文 (简体)',
-        'zh_Hant': '中文 (繁体)',
-        'vi': '越南语',
-        'vi_Nom': '越南语 (汉喃)',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(language, {
+      'en': '英语',
+      'zh': '中文',
+      'zh_Hans': '中文 (简体)',
+      'zh_Hant': '中文 (繁体)',
+      'vi': '越南语',
+      'vi_Nom': '越南语 (汉喃)',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -449,15 +434,12 @@ class NomnaLocaleZh extends NomnaLocale {
 
   @override
   String l58(String weekday) {
-    String _temp0 = intl.Intl.selectLogic(
-      weekday,
-      {
-        '1': '星期一',
-        '6': '星期六',
-        '7': '星期日',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(weekday, {
+      '1': '星期一',
+      '6': '星期六',
+      '7': '星期日',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -466,60 +448,51 @@ class NomnaLocaleZh extends NomnaLocale {
 
   @override
   String l60(String calendarView) {
-    String _temp0 = intl.Intl.selectLogic(
-      calendarView,
-      {
-        'schedule': '历表',
-        'day': '日',
-        'week': '周',
-        'month': '月',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(calendarView, {
+      'schedule': '历表',
+      'day': '日',
+      'week': '周',
+      'month': '月',
+      'other': '',
+    });
     return '$_temp0';
   }
 
   @override
   String l61(String stem) {
-    String _temp0 = intl.Intl.selectLogic(
-      stem,
-      {
-        '0': '甲',
-        '1': '乙',
-        '2': '丙',
-        '3': '丁',
-        '4': '戊',
-        '5': '己',
-        '6': '庚',
-        '7': '辛',
-        '8': '壬',
-        '9': '癸',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(stem, {
+      '0': '甲',
+      '1': '乙',
+      '2': '丙',
+      '3': '丁',
+      '4': '戊',
+      '5': '己',
+      '6': '庚',
+      '7': '辛',
+      '8': '壬',
+      '9': '癸',
+      'other': '',
+    });
     return '$_temp0';
   }
 
   @override
   String l62(String branch) {
-    String _temp0 = intl.Intl.selectLogic(
-      branch,
-      {
-        '0': '子',
-        '1': '丑',
-        '2': '寅',
-        '3': '卯',
-        '4': '辰',
-        '5': '巳',
-        '6': '午',
-        '7': '未',
-        '8': '申',
-        '9': '酉',
-        '10': '戌',
-        '11': '亥',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(branch, {
+      '0': '子',
+      '1': '丑',
+      '2': '寅',
+      '3': '卯',
+      '4': '辰',
+      '5': '巳',
+      '6': '午',
+      '7': '未',
+      '8': '申',
+      '9': '酉',
+      '10': '戌',
+      '11': '亥',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -537,17 +510,14 @@ class NomnaLocaleZh extends NomnaLocale {
 
   @override
   String l67(String fontFamily) {
-    String _temp0 = intl.Intl.selectLogic(
-      fontFamily,
-      {
-        'nomnatong': '喃那宋',
-        'hannomgothic': '汉喃哥特',
-        'hannomkhai': '汉喃楷',
-        'hannomminh': '汉喃明',
-        'misansl3': 'MiSans L3',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(fontFamily, {
+      'nomnatong': '喃那宋',
+      'hannomgothic': '汉喃哥特',
+      'hannomkhai': '汉喃楷',
+      'hannomminh': '汉喃明',
+      'misansl3': 'MiSans L3',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -596,13 +566,10 @@ class NomnaLocaleZh extends NomnaLocale {
 
   @override
   String l81(String object) {
-    String _temp0 = intl.Intl.selectLogic(
-      object,
-      {
-        'translate': '翻译',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(object, {
+      'translate': '翻译',
+      'other': '',
+    });
     return '在喃那$_temp0中打开';
   }
 
@@ -656,28 +623,22 @@ class NomnaLocaleZh extends NomnaLocale {
 
   @override
   String l98(String model) {
-    String _temp0 = intl.Intl.selectLogic(
-      model,
-      {
-        'ua': '每日转换帮助',
-        'ub': '使用高级集合',
-        'uc': '适合深入研究',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(model, {
+      'ua': '每日转换帮助',
+      'ub': '使用高级集合',
+      'uc': '适合深入研究',
+      'other': '',
+    });
     return '$_temp0';
   }
 
   @override
   String l99(String script) {
-    String _temp0 = intl.Intl.selectLogic(
-      script,
-      {
-        'latin': '国语',
-        'chinese': '汉喃',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(script, {
+      'latin': '国语',
+      'chinese': '汉喃',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -763,28 +724,22 @@ class NomnaLocaleZhHans extends NomnaLocaleZh {
 
   @override
   String l11(String theme) {
-    String _temp0 = intl.Intl.selectLogic(
-      theme,
-      {
-        'system': '自动',
-        'light': '亮',
-        'dark': '暗',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(theme, {
+      'system': '自动',
+      'light': '亮',
+      'dark': '暗',
+      'other': '',
+    });
     return '$_temp0';
   }
 
   @override
   String l12(String status) {
-    String _temp0 = intl.Intl.selectLogic(
-      status,
-      {
-        'listening': '正在聆听···',
-        'notListening': '停止聆听',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(status, {
+      'listening': '正在聆听···',
+      'notListening': '停止聆听',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -873,15 +828,12 @@ class NomnaLocaleZhHans extends NomnaLocaleZh {
 
   @override
   String l40(String speed) {
-    String _temp0 = intl.Intl.selectLogic(
-      speed,
-      {
-        'normal': '正常',
-        'slow': '慢',
-        'slower': '较慢',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(speed, {
+      'normal': '正常',
+      'slow': '慢',
+      'slower': '较慢',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -890,15 +842,12 @@ class NomnaLocaleZhHans extends NomnaLocaleZh {
 
   @override
   String l42(String size) {
-    String _temp0 = intl.Intl.selectLogic(
-      size,
-      {
-        'large': '大',
-        'medium': '中',
-        'small': '小',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(size, {
+      'large': '大',
+      'medium': '中',
+      'small': '小',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -916,18 +865,15 @@ class NomnaLocaleZhHans extends NomnaLocaleZh {
 
   @override
   String l47(String language) {
-    String _temp0 = intl.Intl.selectLogic(
-      language,
-      {
-        'en': '英语',
-        'zh': '中文',
-        'zh_Hans': '中文 (简体)',
-        'zh_Hant': '中文 (繁体)',
-        'vi': '越南语',
-        'vi_Nom': '越南语 (汉喃)',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(language, {
+      'en': '英语',
+      'zh': '中文',
+      'zh_Hans': '中文 (简体)',
+      'zh_Hant': '中文 (繁体)',
+      'vi': '越南语',
+      'vi_Nom': '越南语 (汉喃)',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -963,15 +909,12 @@ class NomnaLocaleZhHans extends NomnaLocaleZh {
 
   @override
   String l58(String weekday) {
-    String _temp0 = intl.Intl.selectLogic(
-      weekday,
-      {
-        '1': '星期一',
-        '6': '星期六',
-        '7': '星期日',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(weekday, {
+      '1': '星期一',
+      '6': '星期六',
+      '7': '星期日',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -980,60 +923,51 @@ class NomnaLocaleZhHans extends NomnaLocaleZh {
 
   @override
   String l60(String calendarView) {
-    String _temp0 = intl.Intl.selectLogic(
-      calendarView,
-      {
-        'schedule': '历表',
-        'day': '日',
-        'week': '周',
-        'month': '月',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(calendarView, {
+      'schedule': '历表',
+      'day': '日',
+      'week': '周',
+      'month': '月',
+      'other': '',
+    });
     return '$_temp0';
   }
 
   @override
   String l61(String stem) {
-    String _temp0 = intl.Intl.selectLogic(
-      stem,
-      {
-        '0': '甲',
-        '1': '乙',
-        '2': '丙',
-        '3': '丁',
-        '4': '戊',
-        '5': '己',
-        '6': '庚',
-        '7': '辛',
-        '8': '壬',
-        '9': '癸',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(stem, {
+      '0': '甲',
+      '1': '乙',
+      '2': '丙',
+      '3': '丁',
+      '4': '戊',
+      '5': '己',
+      '6': '庚',
+      '7': '辛',
+      '8': '壬',
+      '9': '癸',
+      'other': '',
+    });
     return '$_temp0';
   }
 
   @override
   String l62(String branch) {
-    String _temp0 = intl.Intl.selectLogic(
-      branch,
-      {
-        '0': '子',
-        '1': '丑',
-        '2': '寅',
-        '3': '卯',
-        '4': '辰',
-        '5': '巳',
-        '6': '午',
-        '7': '未',
-        '8': '申',
-        '9': '酉',
-        '10': '戌',
-        '11': '亥',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(branch, {
+      '0': '子',
+      '1': '丑',
+      '2': '寅',
+      '3': '卯',
+      '4': '辰',
+      '5': '巳',
+      '6': '午',
+      '7': '未',
+      '8': '申',
+      '9': '酉',
+      '10': '戌',
+      '11': '亥',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -1051,17 +985,14 @@ class NomnaLocaleZhHans extends NomnaLocaleZh {
 
   @override
   String l67(String fontFamily) {
-    String _temp0 = intl.Intl.selectLogic(
-      fontFamily,
-      {
-        'nomnatong': '喃那宋',
-        'hannomgothic': '汉喃哥特',
-        'hannomkhai': '汉喃楷',
-        'hannomminh': '汉喃明',
-        'misansl3': 'MiSans L3',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(fontFamily, {
+      'nomnatong': '喃那宋',
+      'hannomgothic': '汉喃哥特',
+      'hannomkhai': '汉喃楷',
+      'hannomminh': '汉喃明',
+      'misansl3': 'MiSans L3',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -1110,13 +1041,10 @@ class NomnaLocaleZhHans extends NomnaLocaleZh {
 
   @override
   String l81(String object) {
-    String _temp0 = intl.Intl.selectLogic(
-      object,
-      {
-        'translate': '翻译',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(object, {
+      'translate': '翻译',
+      'other': '',
+    });
     return '在喃那$_temp0中打开';
   }
 
@@ -1170,28 +1098,22 @@ class NomnaLocaleZhHans extends NomnaLocaleZh {
 
   @override
   String l98(String model) {
-    String _temp0 = intl.Intl.selectLogic(
-      model,
-      {
-        'ua': '每日转换帮助',
-        'ub': '使用高级集合',
-        'uc': '适合深入研究',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(model, {
+      'ua': '每日转换帮助',
+      'ub': '使用高级集合',
+      'uc': '适合深入研究',
+      'other': '',
+    });
     return '$_temp0';
   }
 
   @override
   String l99(String script) {
-    String _temp0 = intl.Intl.selectLogic(
-      script,
-      {
-        'latin': '国语',
-        'chinese': '汉喃',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(script, {
+      'latin': '国语',
+      'chinese': '汉喃',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -1277,28 +1199,22 @@ class NomnaLocaleZhHant extends NomnaLocaleZh {
 
   @override
   String l11(String theme) {
-    String _temp0 = intl.Intl.selectLogic(
-      theme,
-      {
-        'system': '自動',
-        'light': '亮',
-        'dark': '暗',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(theme, {
+      'system': '自動',
+      'light': '亮',
+      'dark': '暗',
+      'other': '',
+    });
     return '$_temp0';
   }
 
   @override
   String l12(String status) {
-    String _temp0 = intl.Intl.selectLogic(
-      status,
-      {
-        'listening': '正在聆聽···',
-        'notListening': '停止聆聽',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(status, {
+      'listening': '正在聆聽···',
+      'notListening': '停止聆聽',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -1387,15 +1303,12 @@ class NomnaLocaleZhHant extends NomnaLocaleZh {
 
   @override
   String l40(String speed) {
-    String _temp0 = intl.Intl.selectLogic(
-      speed,
-      {
-        'normal': '正常',
-        'slow': '慢',
-        'slower': '較慢',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(speed, {
+      'normal': '正常',
+      'slow': '慢',
+      'slower': '較慢',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -1404,15 +1317,12 @@ class NomnaLocaleZhHant extends NomnaLocaleZh {
 
   @override
   String l42(String size) {
-    String _temp0 = intl.Intl.selectLogic(
-      size,
-      {
-        'large': '大',
-        'medium': '中',
-        'small': '小',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(size, {
+      'large': '大',
+      'medium': '中',
+      'small': '小',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -1430,18 +1340,15 @@ class NomnaLocaleZhHant extends NomnaLocaleZh {
 
   @override
   String l47(String language) {
-    String _temp0 = intl.Intl.selectLogic(
-      language,
-      {
-        'en': '英文',
-        'zh': '中文',
-        'zh_Hans': '中文 (簡體)',
-        'zh_Hant': '中文 (繁體)',
-        'vi': '越南文',
-        'vi_Nom': '越南文 (漢喃)',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(language, {
+      'en': '英文',
+      'zh': '中文',
+      'zh_Hans': '中文 (簡體)',
+      'zh_Hant': '中文 (繁體)',
+      'vi': '越南文',
+      'vi_Nom': '越南文 (漢喃)',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -1477,15 +1384,12 @@ class NomnaLocaleZhHant extends NomnaLocaleZh {
 
   @override
   String l58(String weekday) {
-    String _temp0 = intl.Intl.selectLogic(
-      weekday,
-      {
-        '1': '星期一',
-        '6': '星期六',
-        '7': '星期日',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(weekday, {
+      '1': '星期一',
+      '6': '星期六',
+      '7': '星期日',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -1494,60 +1398,51 @@ class NomnaLocaleZhHant extends NomnaLocaleZh {
 
   @override
   String l60(String calendarView) {
-    String _temp0 = intl.Intl.selectLogic(
-      calendarView,
-      {
-        'schedule': '曆表',
-        'day': '日',
-        'week': '週',
-        'month': '月',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(calendarView, {
+      'schedule': '曆表',
+      'day': '日',
+      'week': '週',
+      'month': '月',
+      'other': '',
+    });
     return '$_temp0';
   }
 
   @override
   String l61(String stem) {
-    String _temp0 = intl.Intl.selectLogic(
-      stem,
-      {
-        '0': '甲',
-        '1': '乙',
-        '2': '丙',
-        '3': '丁',
-        '4': '戊',
-        '5': '己',
-        '6': '庚',
-        '7': '辛',
-        '8': '壬',
-        '9': '癸',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(stem, {
+      '0': '甲',
+      '1': '乙',
+      '2': '丙',
+      '3': '丁',
+      '4': '戊',
+      '5': '己',
+      '6': '庚',
+      '7': '辛',
+      '8': '壬',
+      '9': '癸',
+      'other': '',
+    });
     return '$_temp0';
   }
 
   @override
   String l62(String branch) {
-    String _temp0 = intl.Intl.selectLogic(
-      branch,
-      {
-        '0': '子',
-        '1': '醜',
-        '2': '寅',
-        '3': '卯',
-        '4': '辰',
-        '5': '巳',
-        '6': '午',
-        '7': '未',
-        '8': '申',
-        '9': '酉',
-        '10': '戌',
-        '11': '亥',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(branch, {
+      '0': '子',
+      '1': '醜',
+      '2': '寅',
+      '3': '卯',
+      '4': '辰',
+      '5': '巳',
+      '6': '午',
+      '7': '未',
+      '8': '申',
+      '9': '酉',
+      '10': '戌',
+      '11': '亥',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -1565,17 +1460,14 @@ class NomnaLocaleZhHant extends NomnaLocaleZh {
 
   @override
   String l67(String fontFamily) {
-    String _temp0 = intl.Intl.selectLogic(
-      fontFamily,
-      {
-        'nomnatong': '喃那宋',
-        'hannomgothic': '漢喃哥特',
-        'hannomkhai': '漢喃楷',
-        'hannomminh': '漢喃明',
-        'misansl3': 'MiSans L3',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(fontFamily, {
+      'nomnatong': '喃那宋',
+      'hannomgothic': '漢喃哥特',
+      'hannomkhai': '漢喃楷',
+      'hannomminh': '漢喃明',
+      'misansl3': 'MiSans L3',
+      'other': '',
+    });
     return '$_temp0';
   }
 
@@ -1624,13 +1516,10 @@ class NomnaLocaleZhHant extends NomnaLocaleZh {
 
   @override
   String l81(String object) {
-    String _temp0 = intl.Intl.selectLogic(
-      object,
-      {
-        'translate': '翻譯',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(object, {
+      'translate': '翻譯',
+      'other': '',
+    });
     return '在喃那$_temp0中打开';
   }
 
@@ -1684,28 +1573,22 @@ class NomnaLocaleZhHant extends NomnaLocaleZh {
 
   @override
   String l98(String model) {
-    String _temp0 = intl.Intl.selectLogic(
-      model,
-      {
-        'ua': '每日轉換幫助',
-        'ub': '使用高級集合',
-        'uc': '適合深入研究',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(model, {
+      'ua': '每日轉換幫助',
+      'ub': '使用高級集合',
+      'uc': '適合深入研究',
+      'other': '',
+    });
     return '$_temp0';
   }
 
   @override
   String l99(String script) {
-    String _temp0 = intl.Intl.selectLogic(
-      script,
-      {
-        'latin': '國語',
-        'chinese': '漢喃',
-        'other': '',
-      },
-    );
+    String _temp0 = intl.Intl.selectLogic(script, {
+      'latin': '國語',
+      'chinese': '漢喃',
+      'other': '',
+    });
     return '$_temp0';
   }
 
