@@ -263,11 +263,14 @@ class NomnaLocaleEn extends NomnaLocale {
 
   @override
   String l12(String status) {
-    String _temp0 = intl.Intl.selectLogic(status, {
-      'listening': 'Speak now...',
-      'notListening': 'Has been completed',
-      'other': '',
-    });
+    String _temp0 = intl.Intl.selectLogic(
+      status,
+      {
+        'listening': 'Speak now...',
+        'notListening': 'Has been completed',
+        'other': '',
+      },
+    );
     return '$_temp0';
   }
 
@@ -360,12 +363,15 @@ class NomnaLocaleEn extends NomnaLocale {
 
   @override
   String l40(String speed) {
-    String _temp0 = intl.Intl.selectLogic(speed, {
-      'normal': 'Normal',
-      'slow': 'Slow',
-      'slower': 'Slower',
-      'other': '',
-    });
+    String _temp0 = intl.Intl.selectLogic(
+      speed,
+      {
+        'normal': 'Normal',
+        'slow': 'Slow',
+        'slower': 'Slower',
+        'other': '',
+      },
+    );
     return '$_temp0';
   }
 
@@ -374,12 +380,15 @@ class NomnaLocaleEn extends NomnaLocale {
 
   @override
   String l42(String size) {
-    String _temp0 = intl.Intl.selectLogic(size, {
-      'large': 'Large',
-      'medium': 'Medium',
-      'small': 'Small',
-      'other': '',
-    });
+    String _temp0 = intl.Intl.selectLogic(
+      size,
+      {
+        'large': 'Large',
+        'medium': 'Medium',
+        'small': 'Small',
+        'other': '',
+      },
+    );
     return '$_temp0';
   }
 
@@ -397,15 +406,18 @@ class NomnaLocaleEn extends NomnaLocale {
 
   @override
   String l47(String language) {
-    String _temp0 = intl.Intl.selectLogic(language, {
-      'en': 'English',
-      'zh': 'Chinese',
-      'zh_Hans': 'Chinese (Simplified)',
-      'zh_Hant': 'Chinese (Traditional)',
-      'vi': 'Vietnamese',
-      'vi_Nom': 'Vietnamese (Sino-Nom)',
-      'other': '',
-    });
+    String _temp0 = intl.Intl.selectLogic(
+      language,
+      {
+        'en': 'English',
+        'zh': 'Chinese',
+        'zh_Hans': 'Chinese (Simplified)',
+        'zh_Hant': 'Chinese (Traditional)',
+        'vi': 'Vietnamese',
+        'vi_Nom': 'Vietnamese (Sino-Nom)',
+        'other': '',
+      },
+    );
     return '$_temp0';
   }
 
@@ -441,12 +453,15 @@ class NomnaLocaleEn extends NomnaLocale {
 
   @override
   String l58(String weekday) {
-    String _temp0 = intl.Intl.selectLogic(weekday, {
-      '1': 'Monday',
-      '6': 'Saturday',
-      '7': 'Sunday',
-      'other': '',
-    });
+    String _temp0 = intl.Intl.selectLogic(
+      weekday,
+      {
+        '1': 'Monday',
+        '6': 'Saturday',
+        '7': 'Sunday',
+        'other': '',
+      },
+    );
     return '$_temp0';
   }
 
@@ -455,51 +470,60 @@ class NomnaLocaleEn extends NomnaLocale {
 
   @override
   String l60(String calendarView) {
-    String _temp0 = intl.Intl.selectLogic(calendarView, {
-      'schedule': 'Schedule',
-      'day': 'Day',
-      'week': 'Week',
-      'month': 'Month',
-      'other': '',
-    });
+    String _temp0 = intl.Intl.selectLogic(
+      calendarView,
+      {
+        'schedule': 'Schedule',
+        'day': 'Day',
+        'week': 'Week',
+        'month': 'Month',
+        'other': '',
+      },
+    );
     return '$_temp0';
   }
 
   @override
   String l61(String stem) {
-    String _temp0 = intl.Intl.selectLogic(stem, {
-      '0': 'Jia',
-      '1': 'Yi',
-      '2': 'Bing',
-      '3': 'Ding',
-      '4': 'Mou',
-      '5': 'Ji',
-      '6': 'Geng',
-      '7': 'Xin',
-      '8': 'Ren',
-      '9': 'Gui',
-      'other': '',
-    });
+    String _temp0 = intl.Intl.selectLogic(
+      stem,
+      {
+        '0': 'Jia',
+        '1': 'Yi',
+        '2': 'Bing',
+        '3': 'Ding',
+        '4': 'Mou',
+        '5': 'Ji',
+        '6': 'Geng',
+        '7': 'Xin',
+        '8': 'Ren',
+        '9': 'Gui',
+        'other': '',
+      },
+    );
     return '$_temp0';
   }
 
   @override
   String l62(String branch) {
-    String _temp0 = intl.Intl.selectLogic(branch, {
-      '0': 'Zi',
-      '1': 'Chou',
-      '2': 'Yin',
-      '3': 'Mao',
-      '4': 'Chen',
-      '5': 'Zi',
-      '6': 'Wu',
-      '7': 'Wei',
-      '8': 'Shen',
-      '9': 'You',
-      '10': 'Xu',
-      '11': 'Hai',
-      'other': '',
-    });
+    String _temp0 = intl.Intl.selectLogic(
+      branch,
+      {
+        '0': 'Zi',
+        '1': 'Chou',
+        '2': 'Yin',
+        '3': 'Mao',
+        '4': 'Chen',
+        '5': 'Zi',
+        '6': 'Wu',
+        '7': 'Wei',
+        '8': 'Shen',
+        '9': 'You',
+        '10': 'Xu',
+        '11': 'Hai',
+        'other': '',
+      },
+    );
     return '$_temp0';
   }
 
@@ -517,14 +541,17 @@ class NomnaLocaleEn extends NomnaLocale {
 
   @override
   String l67(String fontFamily) {
-    String _temp0 = intl.Intl.selectLogic(fontFamily, {
-      'nomnatong': 'Nom Na Tong',
-      'hannomgothic': 'Han Nom Gothic',
-      'hannomkhai': 'Han Nom Khai',
-      'hannomminh': 'Han Nom Minh',
-      'misansl3': 'MiSans L3',
-      'other': '',
-    });
+    String _temp0 = intl.Intl.selectLogic(
+      fontFamily,
+      {
+        'nomnatong': 'Nom Na Tong',
+        'hannomgothic': 'Han Nom Gothic',
+        'hannomkhai': 'Han Nom Khai',
+        'hannomminh': 'Han Nom Minh',
+        'misansl3': 'MiSans L3',
+        'other': '',
+      },
+    );
     return '$_temp0';
   }
 
@@ -575,10 +602,13 @@ class NomnaLocaleEn extends NomnaLocale {
 
   @override
   String l81(String object) {
-    String _temp0 = intl.Intl.selectLogic(object, {
-      'translate': 'Translate',
-      'other': '',
-    });
+    String _temp0 = intl.Intl.selectLogic(
+      object,
+      {
+        'translate': 'Translate',
+        'other': '',
+      },
+    );
     return 'Open in Nomna $_temp0';
   }
 
@@ -634,22 +664,28 @@ class NomnaLocaleEn extends NomnaLocale {
 
   @override
   String l98(String model) {
-    String _temp0 = intl.Intl.selectLogic(model, {
-      'ua': 'Daily conversion help',
-      'ub': 'Use advanced collection',
-      'uc': 'Ideal for in-depth research',
-      'other': '',
-    });
+    String _temp0 = intl.Intl.selectLogic(
+      model,
+      {
+        'ua': 'Daily conversion help',
+        'ub': 'Use advanced collection',
+        'uc': 'Ideal for in-depth research',
+        'other': '',
+      },
+    );
     return '$_temp0';
   }
 
   @override
   String l99(String script) {
-    String _temp0 = intl.Intl.selectLogic(script, {
-      'latin': 'Latin',
-      'chinese': 'Nom',
-      'other': '',
-    });
+    String _temp0 = intl.Intl.selectLogic(
+      script,
+      {
+        'latin': 'Latin',
+        'chinese': 'Nom',
+        'other': '',
+      },
+    );
     return '$_temp0';
   }
 
