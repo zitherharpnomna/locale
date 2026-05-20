@@ -426,6 +426,24 @@ abstract class NomnaLocale {
   /// **'Đầu ra'**
   String get a52;
 
+  /// No description provided for @a53.
+  ///
+  /// In vi, this message translates to:
+  /// **'Đồng ý'**
+  String get a53;
+
+  /// No description provided for @a54.
+  ///
+  /// In vi, this message translates to:
+  /// **'Từ chối'**
+  String get a54;
+
+  /// No description provided for @a55.
+  ///
+  /// In vi, this message translates to:
+  /// **'Bấm nhận thông báo để không bỏ lỡ bất kì thông tin cập nhật nào từ ứng dụng'**
+  String get a55;
+
   /// No description provided for @h0.
   ///
   /// In vi, this message translates to:

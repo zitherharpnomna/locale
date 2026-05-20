@@ -176,6 +176,16 @@ class NomnaLocaleZh extends NomnaLocale {
   String get a52 => 'Đầu ra';
 
   @override
+  String get a53 => 'Đồng ý';
+
+  @override
+  String get a54 => 'Từ chối';
+
+  @override
+  String get a55 =>
+      'Bấm nhận thông báo để không bỏ lỡ bất kì thông tin cập nhật nào từ ứng dụng';
+
+  @override
   String get h0 => 'Tin tức';
 
   @override
