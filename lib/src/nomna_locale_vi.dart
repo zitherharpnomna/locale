@@ -183,7 +183,7 @@ class NomnaLocaleVi extends NomnaLocale {
 
   @override
   String get a55 =>
-      'Bấm nhận thông báo để không bỏ lỡ bất kì thông tin cập nhật nào từ ứng dụng';
+      'Bấm nhận thông báo để không bỏ lỡ bất kì thông tin cập nhật nào từ ứng dụng.';
 
   @override
   String get h0 => 'Tin tức';

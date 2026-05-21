@@ -15,7 +15,7 @@ extension NomnaLocales on BuildContext {
 
   /// Vietnamese (Sino-Nom).
   static const Locale viNom = Locale.fromSubtags(
-    scriptCode: 'nom',
+    scriptCode: 'Hnom',
     languageCode: _defaultTag,
   );
 
