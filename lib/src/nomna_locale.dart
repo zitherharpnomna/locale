@@ -444,6 +444,12 @@ abstract class NomnaLocale {
   /// **'Bấm nhận thông báo để không bỏ lỡ bất kì thông tin cập nhật nào từ ứng dụng.'**
   String get a55;
 
+  /// No description provided for @a56.
+  ///
+  /// In vi, this message translates to:
+  /// **'Lọc theo'**
+  String get a56;
+
   /// No description provided for @h0.
   ///
   /// In vi, this message translates to:

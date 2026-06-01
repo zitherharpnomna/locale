@@ -186,6 +186,9 @@ class NomnaLocaleZh extends NomnaLocale {
       'Bấm nhận thông báo để không bỏ lỡ bất kì thông tin cập nhật nào từ ứng dụng.';
 
   @override
+  String get a56 => 'Lọc theo';
+
+  @override
   String get h0 => 'Tin tức';
 
   @override

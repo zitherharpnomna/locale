@@ -176,14 +176,17 @@ class NomnaLocaleEn extends NomnaLocale {
   String get a52 => 'Output';
 
   @override
-  String get a53 => 'Đồng ý';
+  String get a53 => 'Accept';
 
   @override
-  String get a54 => 'Từ chối';
+  String get a54 => 'Cancel';
 
   @override
   String get a55 =>
-      'Bấm nhận thông báo để không bỏ lỡ bất kì thông tin cập nhật nào từ ứng dụng.';
+      'Tap to receive notifications so you don\'t miss any updates from the app.';
+
+  @override
+  String get a56 => 'Sort by';
 
   @override
   String get h0 => 'Tin tức';
